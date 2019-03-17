@@ -62,6 +62,13 @@ func Dial(network string, addr string) (net.Conn, error) {
 // recv socket messages and store them in the buffer.
 func (s *socket) recv(this js.Value, args []js.Value) interface{} {
 	b := typedArrayToByte(args[0])
+
+	select {
+	case <-s.done:
+		return nil
+	default:
+	}
+
 	s.rbuf.store(b)
 	return nil
 }
@@ -80,6 +87,7 @@ func (s *socket) close(this js.Value, args []js.Value) interface{} {
 	return nil
 }
 
+// on registers an event handler that is cleaned up on close.
 func (s *socket) on(event string, fn func(this js.Value, args []js.Value) interface{}) interface{} {
 	jsFn := js.FuncOf(fn)
 	s.fns = append(s.fns, jsFn)
@@ -164,6 +172,7 @@ func (s *socket) Close() error {
 		fn.Release()
 	}
 	s.fns = nil
+	s.rbuf.clear()
 	return s.err
 }
 
