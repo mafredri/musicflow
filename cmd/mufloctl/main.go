@@ -43,9 +43,13 @@ func main() {
 func run(ctx context.Context, addr, key, iv string) error {
 	log.Printf("Connecting to %s...", addr)
 
-	aes, err := goodspeaker.WithAES([]byte(key), []byte(iv))
-	if err != nil {
-		return err
+	var opts []goodspeaker.Option
+	if key != "" && iv != "" {
+		aes, err := goodspeaker.WithAES([]byte(key), []byte(iv))
+		if err != nil {
+			return err
+		}
+		opts = append(opts, aes)
 	}
 
 	conn, err := dial(ctx, addr)
@@ -53,8 +57,8 @@ func run(ctx context.Context, addr, key, iv string) error {
 		return err
 	}
 
-	r := goodspeaker.NewReader(conn, aes)
-	w := goodspeaker.NewWriter(conn, aes)
+	r := goodspeaker.NewReader(conn, opts...)
+	w := goodspeaker.NewWriter(conn, opts...)
 
 	go func() {
 		dec := json.NewDecoder(r)
