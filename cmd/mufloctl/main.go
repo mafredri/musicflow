@@ -4,13 +4,18 @@ import (
 	"bufio"
 	"context"
 	"encoding/json"
+	"errors"
 	"flag"
 	"fmt"
 	"io"
 	"log"
 	"os"
+	"os/signal"
+	"syscall"
+	"time"
 
-	"github.com/mafredri/goodspeaker/goodspeaker"
+	"github.com/mafredri/goodspeaker"
+	"github.com/mafredri/musicflow"
 )
 
 var (
@@ -19,84 +24,108 @@ var (
 )
 
 func main() {
-	addr := flag.String("addr", "", "Address to the speaker")
+	host := flag.String("addr", "", "Host address or IP of the speaker")
 	port := flag.Int("port", 9741, "Port of the speaker")
 	flag.StringVar(&key, "key", key, "AES key for encryption")
 	flag.StringVar(&iv, "iv", iv, "IV for encryption")
+	doTest := flag.Bool("test", false, "Perform a communication test with the speaker")
 
 	flag.Parse()
 
-	if *addr == "" {
+	if *host == "" {
 		fmt.Print("error: speaker address must be provided\n\n")
 		flag.Usage()
 		os.Exit(1)
 	}
 
-	ctx := context.Background()
+	ctx, cancel := context.WithCancel(context.Background())
+	ch := make(chan os.Signal, 1)
+	signal.Notify(ch, os.Interrupt, syscall.SIGTERM)
+	go func() {
+		for sig := range ch {
+			fmt.Printf("Received %s, exiting...\n", sig.String())
+			cancel()
+		}
+	}()
 
-	address := fmt.Sprintf("%s:%d", *addr, *port)
-	if err := run(ctx, address, key, iv); err != nil {
+	addr := fmt.Sprintf("%s:%d", *host, *port)
+	if *doTest {
+		if err := testRun(ctx, addr, key, iv); err != nil && !errors.Is(err, context.Canceled) {
+			panic(err)
+		}
+		return
+	}
+
+	if err := run(ctx, addr, key, iv); err != nil && !errors.Is(err, context.Canceled) {
 		panic(err)
 	}
 }
 
 func run(ctx context.Context, addr, key, iv string) error {
+	ctx, cancel := context.WithCancel(ctx)
+	defer cancel()
+
 	log.Printf("Connecting to %s...", addr)
 
-	var opts []goodspeaker.Option
+	var gsOpt []goodspeaker.Option
 	if key != "" && iv != "" {
 		aes, err := goodspeaker.WithAES([]byte(key), []byte(iv))
 		if err != nil {
 			return err
 		}
-		opts = append(opts, aes)
+		gsOpt = append(gsOpt, aes)
+	}
+	opt := []musicflow.DialOption{
+		musicflow.WithGoodspeakerOption(gsOpt...),
+		musicflow.WithLogger(log.New(os.Stderr, "[musicflow] ", log.Flags())),
 	}
 
-	conn, err := dial(ctx, addr)
+	c, err := musicflow.Dial(ctx, addr, opt...)
+	if err != nil {
+		return err
+	}
+	defer c.Close()
+
+	c.OnBroadcast(func(message string, data []byte) {
+		log.Printf("Broadcast: %s %s", message, data)
+	})
+
+	_, err = c.ProductInfo(ctx, time.Now(), true)
 	if err != nil {
 		return err
 	}
 
-	r := goodspeaker.NewReader(conn, opts...)
-	w := goodspeaker.NewWriter(conn, opts...)
-
+	fmt.Printf("Reading stdin for JSON input (Ctrl+C to exit)...\nExample(s):\n\t%s\n\t%s\n\n",
+		`{"data":{"fadetime":0,"vol":8},"msg":"VOLUME_SETTING"}`,
+		`{"data":{"nightmode":false},"msg":"NIGHT_MODE_SET"}`,
+	)
 	go func() {
-		dec := json.NewDecoder(r)
-		for {
-			var v interface{}
-			if err := dec.Decode(&v); err != nil {
-				if err == io.EOF {
-					log.Println("Connection lost")
-					return
-				}
+		defer cancel()
+
+		s := bufio.NewScanner(os.Stdin)
+		for s.Scan() {
+			req := musicflow.Request{}
+			err = json.Unmarshal(s.Bytes(), &req)
+			if err != nil {
 				log.Println(err)
 				continue
 			}
 
-			log.Printf("=> %v", v)
+			err = c.Send(ctx, req, nil)
+			if err != nil {
+				if err == io.EOF {
+					log.Println("Connection lost")
+					break
+				}
+				log.Println(err)
+				return
+			}
+		}
+		if err = s.Err(); err != nil {
+			log.Println(err)
 		}
 	}()
 
-	s := bufio.NewScanner(os.Stdin)
-	for s.Scan() {
-		in := s.Bytes()
-
-		fmt.Println("Sending:", string(in))
-
-		n, err := w.Write(in)
-		if err != nil {
-			if err == io.EOF {
-				log.Println("Connection lost")
-				break
-			}
-			log.Println(err)
-			continue
-		}
-		log.Printf("Wrote %d/%d", n, len(in))
-	}
-	if err := s.Err(); err != nil {
-		panic(err)
-	}
-
-	return nil
+	<-ctx.Done()
+	return ctx.Err()
 }
