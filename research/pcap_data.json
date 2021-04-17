@@ -1,0 +1,2019 @@
+[
+  {
+    "data": {
+      "icon": 2131166244,
+      "name": "LG SJ6"
+    },
+    "msg": "SPK_ADD_SET"
+  },
+  {
+    "msg": "SPK_ADD_SET",
+    "result": "OK"
+  },
+  {
+    "msg": "SPK_ADD_NOTI"
+  },
+  {
+    "data": {
+      "day": 4,
+      "hour": 15,
+      "id": "and0000f9c28b000000",
+      "min": 45,
+      "option": 1
+    },
+    "msg": "PRODUCT_INFO"
+  },
+  {
+    "data": {
+      "day": 4,
+      "hour": 15,
+      "id": "and0000f9c28b000000",
+      "min": 45,
+      "option": 0
+    },
+    "msg": "PRODUCT_INFO"
+  },
+  {
+    "data": {
+      "reg": true,
+      "modeltype": 2,
+      "network": 1,
+      "modelname": "SJ6",
+      "modelnum": 13,
+      "petname": "Sound Bar SJ6",
+      "protover": 1,
+      "region": "FR",
+      "info": {
+        "name": "LG SJ6",
+        "function": 0,
+        "groupid": 0,
+        "vol": 10,
+        "icon": 36,
+        "eqlist": [12, 14, 0, 7],
+        "spktype": 0,
+        "groupcolor": 0,
+        "channel": 0,
+        "playing": false,
+        "mute": false,
+        "ledset": true,
+        "update": false,
+        "wirelessmac": "04:4e:af:00:00:00",
+        "functionlist": [0, 15, 1, 12, 6, 2, 5],
+        "demo": false,
+        "bever": "NB8.029.81011.C",
+        "btmac": "C4:30:18:00:00:00"
+      }
+    },
+    "msg": "PRODUCT_INFO",
+    "result": "OK"
+  },
+  {
+    "msg": "NETWORK_INFO_REQ"
+  },
+  {
+    "data": {
+      "reg": true,
+      "modeltype": 2,
+      "network": 1,
+      "modelname": "SJ6",
+      "modelnum": 13,
+      "petname": "Sound Bar SJ6",
+      "protover": 1,
+      "region": "FR",
+      "info": {
+        "name": "LG SJ6",
+        "function": 0,
+        "groupid": 0,
+        "vol": 10,
+        "icon": 36,
+        "eqlist": [12, 14, 0, 7],
+        "spktype": 0,
+        "groupcolor": 0,
+        "channel": 0,
+        "playing": false,
+        "mute": false,
+        "ledset": true,
+        "update": false,
+        "wirelessmac": "04:4e:af:00:00:00",
+        "functionlist": [0, 15, 1, 12, 6, 2, 5],
+        "demo": false,
+        "bever": "NB8.029.81011.C",
+        "btmac": "C4:30:18:00:00:00"
+      }
+    },
+    "msg": "PRODUCT_INFO",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "network": 1,
+      "meshid": 2129,
+      "pswd": "MyPassword",
+      "meshch": 0,
+      "ssid": "MySSID"
+    },
+    "msg": "NETWORK_INFO_REQ",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "stat": true
+    },
+    "msg": "TEST_TONE"
+  },
+  {
+    "msg": "TEST_TONE",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "icon": 0,
+      "name": "MySoundbar"
+    },
+    "msg": "SPK_INFO_MODIFY"
+  },
+  {
+    "msg": "SPK_INFO_MODIFY",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "icon": 0,
+      "name": "MySoundbar"
+    },
+    "msg": "SPK_NAME_CHANGE"
+  },
+  {
+    "msg": "C4A_TOS_GET"
+  },
+  {
+    "data": {
+      "agree": false
+    },
+    "msg": "C4A_TOS_GET",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "day": 4,
+      "hour": 15,
+      "id": "and0000f9c28b000000",
+      "min": 45,
+      "option": 1
+    },
+    "msg": "PRODUCT_INFO"
+  },
+  {
+    "data": {
+      "reg": true,
+      "modeltype": 2,
+      "network": 1,
+      "modelname": "SJ6",
+      "modelnum": 13,
+      "petname": "Sound Bar SJ6",
+      "protover": 1,
+      "region": "FR",
+      "info": {
+        "name": "MySoundbar",
+        "function": 0,
+        "groupid": 0,
+        "vol": 10,
+        "icon": 0,
+        "eqlist": [12, 14, 0, 7],
+        "spktype": 0,
+        "groupcolor": 0,
+        "channel": 0,
+        "playing": false,
+        "mute": false,
+        "ledset": true,
+        "update": false,
+        "wirelessmac": "04:4e:af:00:00:00",
+        "functionlist": [0, 15, 1, 12, 6, 2, 5],
+        "demo": false,
+        "bever": "NB8.029.81011.C",
+        "btmac": "C4:30:18:00:00:00"
+      }
+    },
+    "msg": "PRODUCT_INFO",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "agree": true,
+      "sharing": true,
+      "timezone": "Europe/Helsinki"
+    },
+    "msg": "INITIALIZATION_SET"
+  },
+  {
+    "msg": "INITIALIZATION_SET",
+    "result": "OK"
+  },
+  {
+    "msg": "SYSTEM_VER_REQ"
+  },
+  {
+    "data": {
+      "be": "NB8.029.81011.C",
+      "micom": "1704210",
+      "meq": "161104B0",
+      "hdmi": "",
+      "c4a": "1.21.75965",
+      "dsp": "",
+      "demomusic": ""
+    },
+    "msg": "SYSTEM_VER_REQ",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "day": 4,
+      "hour": 15,
+      "id": "and0000f9c28b000000",
+      "min": 46,
+      "option": 0
+    },
+    "msg": "PRODUCT_INFO"
+  },
+  {
+    "data": {
+      "reg": true,
+      "modeltype": 2,
+      "network": 1,
+      "modelname": "SJ6",
+      "modelnum": 13,
+      "petname": "Sound Bar SJ6",
+      "protover": 1,
+      "region": "FR",
+      "info": {
+        "name": "MySoundbar",
+        "function": 0,
+        "groupid": 0,
+        "vol": 10,
+        "icon": 0,
+        "eqlist": [12, 14, 0, 7],
+        "spktype": 0,
+        "groupcolor": 0,
+        "channel": 0,
+        "playing": false,
+        "mute": false,
+        "ledset": true,
+        "update": false,
+        "wirelessmac": "04:4e:af:00:00:00",
+        "functionlist": [0, 15, 1, 12, 6, 2, 5],
+        "demo": false,
+        "bever": "NB8.029.81011.C",
+        "btmac": "C4:30:18:00:00:00"
+      }
+    },
+    "msg": "PRODUCT_INFO",
+    "result": "OK"
+  },
+  {
+    "msg": "FUNC_INFO_REQ"
+  },
+  {
+    "data": {
+      "connect": 0,
+      "type": 0,
+      "btname": "",
+      "mute": false
+    },
+    "msg": "FUNC_INFO_REQ",
+    "result": "OK"
+  },
+  {
+    "msg": "PLAY_INFO_REQ"
+  },
+  {
+    "data": {
+      "albumtitle": "",
+      "shuffle": false,
+      "c4aappname": "",
+      "repeat": 0,
+      "source": 0,
+      "position": 0,
+      "idx": 0,
+      "albumart": "",
+      "cptype": 0,
+      "artist": "",
+      "uri": "",
+      "c4aappid": "",
+      "objID": "",
+      "duration": 0,
+      "title": "",
+      "playing": 3
+    },
+    "msg": "PLAY_INFO_REQ",
+    "result": "OK"
+  },
+  {
+    "msg": "ALARM_STATE_REQ"
+  },
+  {
+    "data": {
+      "on": false
+    },
+    "msg": "ALARM_STATE_NOTI"
+  },
+  {
+    "data": {
+      "set": true
+    },
+    "msg": "PLAY_TIME_SET"
+  },
+  {
+    "msg": "PLAY_TIME_SET",
+    "result": "OK"
+  },
+  {
+    "msg": "FUNC_INFO_REQ"
+  },
+  {
+    "data": {
+      "all": false,
+      "startidx": 0
+    },
+    "msg": "PLAYLIST_TRANS_REQ"
+  },
+  {
+    "data": {
+      "connect": 0,
+      "type": 0,
+      "btname": "",
+      "mute": false
+    },
+    "msg": "FUNC_INFO_REQ",
+    "result": "OK"
+  },
+  {
+    "msg": "ALARM_STATE_REQ"
+  },
+  {
+    "data": {
+      "playlist": [],
+      "totalsize": 0,
+      "startidx": 0,
+      "cursize": 0
+    },
+    "msg": "PLAYLIST_TRANS_REQ",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "on": false
+    },
+    "msg": "ALARM_STATE_NOTI"
+  },
+  {
+    "msg": "PLAY_INFO_REQ"
+  },
+  {
+    "data": {
+      "albumtitle": "",
+      "shuffle": false,
+      "c4aappname": "",
+      "repeat": 0,
+      "source": 0,
+      "position": 0,
+      "idx": 0,
+      "albumart": "",
+      "cptype": 0,
+      "artist": "",
+      "uri": "",
+      "c4aappid": "",
+      "objID": "",
+      "duration": 0,
+      "title": "",
+      "playing": 3
+    },
+    "msg": "PLAY_INFO_REQ",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "set": false
+    },
+    "msg": "PLAY_TIME_SET"
+  },
+  {
+    "msg": "PLAY_TIME_SET",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "set": true
+    },
+    "msg": "PLAY_TIME_SET"
+  },
+  {
+    "msg": "PLAY_TIME_SET",
+    "result": "OK"
+  },
+  {
+    "msg": "FUNC_INFO_REQ"
+  },
+  {
+    "data": {
+      "all": false,
+      "startidx": 0
+    },
+    "msg": "PLAYLIST_TRANS_REQ"
+  },
+  {
+    "data": {
+      "connect": 0,
+      "type": 0,
+      "btname": "",
+      "mute": false
+    },
+    "msg": "FUNC_INFO_REQ",
+    "result": "OK"
+  },
+  {
+    "msg": "ALARM_STATE_REQ"
+  },
+  {
+    "msg": "PLAY_INFO_REQ"
+  },
+  {
+    "data": {
+      "playlist": [],
+      "totalsize": 0,
+      "startidx": 0,
+      "cursize": 0
+    },
+    "msg": "PLAYLIST_TRANS_REQ",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "on": false
+    },
+    "msg": "ALARM_STATE_NOTI"
+  },
+  {
+    "data": {
+      "albumtitle": "",
+      "shuffle": false,
+      "c4aappname": "",
+      "repeat": 0,
+      "source": 0,
+      "position": 0,
+      "idx": 0,
+      "albumart": "",
+      "cptype": 0,
+      "artist": "",
+      "uri": "",
+      "c4aappid": "",
+      "objID": "",
+      "duration": 0,
+      "title": "",
+      "playing": 3
+    },
+    "msg": "PLAY_INFO_REQ",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "type": 15
+    },
+    "msg": "FUNCTION_SET"
+  },
+  {
+    "msg": "FUNCTION_SET",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "connect": 1,
+      "type": 4,
+      "btname": "",
+      "mute": false
+    },
+    "msg": "FUNC_INFO"
+  },
+  {
+    "msg": "ALARM_STATE_REQ"
+  },
+  {
+    "data": {
+      "on": false
+    },
+    "msg": "ALARM_STATE_NOTI"
+  },
+  {
+    "data": {
+      "fadetime": 0,
+      "vol": 10
+    },
+    "msg": "VOLUME_SETTING"
+  },
+  {
+    "data": {
+      "vol": 10
+    },
+    "msg": "VOLUME_CHANGE"
+  },
+  {
+    "msg": "VOLUME_SETTING",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "fadetime": 0,
+      "vol": 12
+    },
+    "msg": "VOLUME_SETTING"
+  },
+  {
+    "data": {
+      "vol": 12
+    },
+    "msg": "VOLUME_CHANGE"
+  },
+  {
+    "msg": "VOLUME_SETTING",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "fadetime": 0,
+      "vol": 16
+    },
+    "msg": "VOLUME_SETTING"
+  },
+  {
+    "data": {
+      "vol": 17
+    },
+    "msg": "VOLUME_CHANGE"
+  },
+  {
+    "msg": "VOLUME_SETTING",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "fadetime": 0,
+      "vol": 16
+    },
+    "msg": "VOLUME_SETTING"
+  },
+  {
+    "msg": "VOLUME_SETTING",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "mute": true
+    },
+    "msg": "MUTE_SET"
+  },
+  {
+    "data": {
+      "mute": true
+    },
+    "msg": "MUTE_CHANGE"
+  },
+  {
+    "msg": "MUTE_SET",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "mute": false
+    },
+    "msg": "MUTE_SET"
+  },
+  {
+    "data": {
+      "mute": false
+    },
+    "msg": "MUTE_CHANGE"
+  },
+  {
+    "msg": "MUTE_SET",
+    "result": "OK"
+  },
+  {
+    "msg": "EQ_INFO_REQ"
+  },
+  {
+    "data": {
+      "currenteq": 12,
+      "lrbal": 20,
+      "treble": 5,
+      "bass": 5
+    },
+    "msg": "EQ_INFO_REQ",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "type": 0,
+      "value": 14
+    },
+    "msg": "EQ_SETTING"
+  },
+  {
+    "msg": "EQ_SETTING",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "type": 0,
+      "value": 0
+    },
+    "msg": "EQ_SETTING"
+  },
+  {
+    "msg": "EQ_SETTING",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "type": 0,
+      "value": 7
+    },
+    "msg": "EQ_SETTING"
+  },
+  {
+    "msg": "EQ_SETTING",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "type": 4,
+      "value": 1
+    },
+    "msg": "EQ_SETTING"
+  },
+  {
+    "msg": "EQ_SETTING",
+    "result": "OK"
+  },
+  {
+    "msg": "EQ_INFO_REQ"
+  },
+  {
+    "data": {
+      "currenteq": 7,
+      "lrbal": 20,
+      "treble": 5,
+      "bass": 5
+    },
+    "msg": "EQ_INFO_REQ",
+    "result": "OK"
+  },
+  {
+    "msg": "EQ_INFO_REQ"
+  },
+  {
+    "data": {
+      "currenteq": 7,
+      "lrbal": 20,
+      "treble": 5,
+      "bass": 5
+    },
+    "msg": "EQ_INFO_REQ",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "type": 2,
+      "value": 6
+    },
+    "msg": "EQ_SETTING"
+  },
+  {
+    "msg": "EQ_SETTING",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "type": 4,
+      "value": 1
+    },
+    "msg": "EQ_SETTING"
+  },
+  {
+    "msg": "EQ_SETTING",
+    "result": "OK"
+  },
+  {
+    "msg": "EQ_INFO_REQ"
+  },
+  {
+    "data": {
+      "currenteq": 7,
+      "lrbal": 20,
+      "treble": 6,
+      "bass": 5
+    },
+    "msg": "EQ_INFO_REQ",
+    "result": "OK"
+  },
+  {
+    "msg": "EQ_INFO_REQ"
+  },
+  {
+    "data": {
+      "currenteq": 7,
+      "lrbal": 20,
+      "treble": 6,
+      "bass": 5
+    },
+    "msg": "EQ_INFO_REQ",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "type": 2,
+      "value": 5
+    },
+    "msg": "EQ_SETTING"
+  },
+  {
+    "msg": "EQ_SETTING",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "type": 1,
+      "value": 8
+    },
+    "msg": "EQ_SETTING"
+  },
+  {
+    "msg": "EQ_SETTING",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "type": 1,
+      "value": 5
+    },
+    "msg": "EQ_SETTING"
+  },
+  {
+    "msg": "EQ_SETTING",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "type": 4,
+      "value": 1
+    },
+    "msg": "EQ_SETTING"
+  },
+  {
+    "msg": "EQ_SETTING",
+    "result": "OK"
+  },
+  {
+    "msg": "EQ_INFO_REQ"
+  },
+  {
+    "data": {
+      "currenteq": 7,
+      "lrbal": 20,
+      "treble": 5,
+      "bass": 5
+    },
+    "msg": "EQ_INFO_REQ",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "type": 4,
+      "value": 1
+    },
+    "msg": "EQ_SETTING"
+  },
+  {
+    "msg": "EQ_SETTING",
+    "result": "OK"
+  },
+  {
+    "msg": "EQ_INFO_REQ"
+  },
+  {
+    "data": {
+      "currenteq": 7,
+      "lrbal": 20,
+      "treble": 5,
+      "bass": 5
+    },
+    "msg": "EQ_INFO_REQ",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "type": 4,
+      "value": 0
+    },
+    "msg": "EQ_SETTING"
+  },
+  {
+    "msg": "EQ_SETTING",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "day": 4,
+      "hour": 15,
+      "id": "and0000f9c28b000000",
+      "min": 48,
+      "option": 0
+    },
+    "msg": "PRODUCT_INFO"
+  },
+  {
+    "data": {
+      "reg": true,
+      "modeltype": 2,
+      "network": 1,
+      "modelname": "SJ6",
+      "modelnum": 13,
+      "petname": "Sound Bar SJ6",
+      "protover": 1,
+      "region": "FR",
+      "info": {
+        "name": "MySoundbar",
+        "function": 4,
+        "groupid": 0,
+        "vol": 17,
+        "icon": 0,
+        "eqlist": [12, 14, 0, 7],
+        "spktype": 0,
+        "groupcolor": 0,
+        "channel": 0,
+        "playing": true,
+        "mute": false,
+        "ledset": true,
+        "update": false,
+        "wirelessmac": "04:4e:af:00:00:00",
+        "functionlist": [0, 15, 1, 12, 6, 2, 5],
+        "demo": false,
+        "bever": "NB8.029.81011.C",
+        "btmac": "C4:30:18:00:00:00"
+      }
+    },
+    "msg": "PRODUCT_INFO",
+    "result": "OK"
+  },
+  {
+    "msg": "FUNC_INFO_REQ"
+  },
+  {
+    "data": {
+      "connect": 1,
+      "type": 4,
+      "btname": "",
+      "mute": false
+    },
+    "msg": "FUNC_INFO_REQ",
+    "result": "OK"
+  },
+  {
+    "msg": "ALARM_STATE_REQ"
+  },
+  {
+    "data": {
+      "on": false
+    },
+    "msg": "ALARM_STATE_NOTI"
+  },
+  {
+    "data": {
+      "day": 4,
+      "hour": 15,
+      "id": "and0000f9c28b000000",
+      "min": 48,
+      "option": 0
+    },
+    "msg": "PRODUCT_INFO"
+  },
+  {
+    "data": {
+      "reg": true,
+      "modeltype": 2,
+      "network": 1,
+      "modelname": "SJ6",
+      "modelnum": 13,
+      "petname": "Sound Bar SJ6",
+      "protover": 1,
+      "region": "FR",
+      "info": {
+        "name": "MySoundbar",
+        "function": 4,
+        "groupid": 0,
+        "vol": 17,
+        "icon": 0,
+        "eqlist": [12, 14, 0, 7],
+        "spktype": 0,
+        "groupcolor": 0,
+        "channel": 0,
+        "playing": true,
+        "mute": false,
+        "ledset": true,
+        "update": false,
+        "wirelessmac": "04:4e:af:00:00:00",
+        "functionlist": [0, 15, 1, 12, 6, 2, 5],
+        "demo": false,
+        "bever": "NB8.029.81011.C",
+        "btmac": "C4:30:18:00:00:00"
+      }
+    },
+    "msg": "PRODUCT_INFO",
+    "result": "OK"
+  },
+  {
+    "msg": "USAGE_SHARE_GET"
+  },
+  {
+    "msg": "SETTING_INFO_REQ"
+  },
+  {
+    "data": {
+      "sharing": true
+    },
+    "msg": "USAGE_SHARE_GET",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "visible_alarm": true,
+      "drc": false,
+      "avsync": 0,
+      "autovol": false,
+      "autopower": true,
+      "nightmode": false,
+      "btstandby": false,
+      "limit_group_gcast": false,
+      "enable_balance": false,
+      "wooferlevel": 15,
+      "visible_tonectrl": true,
+      "woofermax": 21,
+      "wooferoffset": -15,
+      "groupcompress": 0,
+      "settinginfover": 1,
+      "ledset": true,
+      "limit_bt_conn": false,
+      "visible_reserve_sleep": true,
+      "visible_mlib_sync": true,
+      "visible_init": true,
+      "visible_tvconn": true
+    },
+    "msg": "SETTING_INFO_REQ",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "stat": false
+    },
+    "msg": "LED_SET"
+  },
+  {
+    "data": {
+      "stat": false
+    },
+    "msg": "LED_SET",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "status": 1
+    },
+    "msg": "GROUP_COMPRESS_SET"
+  },
+  {
+    "data": {
+      "status": 1
+    },
+    "msg": "GROUP_COMPRESS_STATE_NOTI"
+  },
+  {
+    "msg": "USAGE_SHARE_GET"
+  },
+  {
+    "data": {
+      "sharing": true
+    },
+    "msg": "USAGE_SHARE_GET",
+    "result": "OK"
+  },
+  {
+    "msg": "SETTING_INFO_REQ"
+  },
+  {
+    "data": {
+      "visible_alarm": true,
+      "drc": false,
+      "avsync": 0,
+      "autovol": false,
+      "autopower": true,
+      "nightmode": false,
+      "btstandby": false,
+      "limit_group_gcast": false,
+      "enable_balance": false,
+      "wooferlevel": 15,
+      "visible_tonectrl": true,
+      "woofermax": 21,
+      "wooferoffset": -15,
+      "groupcompress": 1,
+      "settinginfover": 1,
+      "ledset": false,
+      "limit_bt_conn": false,
+      "visible_reserve_sleep": true,
+      "visible_mlib_sync": true,
+      "visible_init": true,
+      "visible_tvconn": true
+    },
+    "msg": "SETTING_INFO_REQ",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "status": 0
+    },
+    "msg": "GROUP_COMPRESS_SET"
+  },
+  {
+    "data": {
+      "status": 0
+    },
+    "msg": "GROUP_COMPRESS_STATE_NOTI"
+  },
+  {
+    "msg": "USAGE_SHARE_GET"
+  },
+  {
+    "data": {
+      "sharing": true
+    },
+    "msg": "USAGE_SHARE_GET",
+    "result": "OK"
+  },
+  {
+    "msg": "SETTING_INFO_REQ"
+  },
+  {
+    "data": {
+      "visible_alarm": true,
+      "drc": false,
+      "avsync": 0,
+      "autovol": false,
+      "autopower": true,
+      "nightmode": false,
+      "btstandby": false,
+      "limit_group_gcast": false,
+      "enable_balance": false,
+      "wooferlevel": 15,
+      "visible_tonectrl": true,
+      "woofermax": 21,
+      "wooferoffset": -15,
+      "groupcompress": 0,
+      "settinginfover": 1,
+      "ledset": false,
+      "limit_bt_conn": false,
+      "visible_reserve_sleep": true,
+      "visible_mlib_sync": true,
+      "visible_init": true,
+      "visible_tvconn": true
+    },
+    "msg": "SETTING_INFO_REQ",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "drc": true
+    },
+    "msg": "DRC_SET"
+  },
+  {
+    "data": {
+      "drc": true
+    },
+    "msg": "DRC_SET",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "nightmode": true
+    },
+    "msg": "NIGHT_MODE_SET"
+  },
+  {
+    "data": {
+      "nightmode": true
+    },
+    "msg": "NIGHT_MODE_SET",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "autovol": true
+    },
+    "msg": "AUTO_VOL_SET"
+  },
+  {
+    "data": {
+      "autovol": true
+    },
+    "msg": "AUTO_VOL_SET",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "autovol": false
+    },
+    "msg": "AUTO_VOL_SET"
+  },
+  {
+    "data": {
+      "autovol": false
+    },
+    "msg": "AUTO_VOL_SET",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "avsync": 30
+    },
+    "msg": "AV_SYNC_SET"
+  },
+  {
+    "data": {
+      "avsync": 30
+    },
+    "msg": "AV_SYNC_SET",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "avsync": 0
+    },
+    "msg": "AV_SYNC_SET"
+  },
+  {
+    "data": {
+      "avsync": 0
+    },
+    "msg": "AV_SYNC_SET",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "wooferlevel": 21
+    },
+    "msg": "WOOFER_LEVEL_SET"
+  },
+  {
+    "data": {
+      "wooferlevel": 21
+    },
+    "msg": "WOOFER_LEVEL_SET",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "wooferlevel": 17
+    },
+    "msg": "WOOFER_LEVEL_SET"
+  },
+  {
+    "data": {
+      "wooferlevel": 17
+    },
+    "msg": "WOOFER_LEVEL_SET",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "wooferlevel": 14
+    },
+    "msg": "WOOFER_LEVEL_SET"
+  },
+  {
+    "data": {
+      "wooferlevel": 14
+    },
+    "msg": "WOOFER_LEVEL_SET",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "wooferlevel": 14
+    },
+    "msg": "WOOFER_LEVEL_SET"
+  },
+  {
+    "data": {
+      "wooferlevel": 14
+    },
+    "msg": "WOOFER_LEVEL_SET",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "wooferlevel": 16
+    },
+    "msg": "WOOFER_LEVEL_SET"
+  },
+  {
+    "data": {
+      "wooferlevel": 16
+    },
+    "msg": "WOOFER_LEVEL_SET",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "autopower": false
+    },
+    "msg": "AUTO_POWER_SET"
+  },
+  {
+    "data": {
+      "autopower": false
+    },
+    "msg": "AUTO_POWER_SET",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "autopower": true
+    },
+    "msg": "AUTO_POWER_SET"
+  },
+  {
+    "data": {
+      "autopower": true
+    },
+    "msg": "AUTO_POWER_SET",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "on": true
+    },
+    "msg": "BT_STANDBY_SET"
+  },
+  {
+    "data": {
+      "on": true
+    },
+    "msg": "BT_STANDBY_STATE_NOTI"
+  },
+  {
+    "data": {
+      "on": false
+    },
+    "msg": "BT_STANDBY_SET"
+  },
+  {
+    "data": {
+      "on": false
+    },
+    "msg": "BT_STANDBY_STATE_NOTI"
+  },
+  {
+    "data": {
+      "limit_bt_conn": true
+    },
+    "msg": "BT_LIMIT_SET"
+  },
+  {
+    "data": {
+      "limit_bt_conn": true
+    },
+    "msg": "BT_LIMIT_SET_NOTI"
+  },
+  {
+    "data": {
+      "limit_bt_conn": false
+    },
+    "msg": "BT_LIMIT_SET"
+  },
+  {
+    "data": {
+      "limit_bt_conn": false
+    },
+    "msg": "BT_LIMIT_SET_NOTI"
+  },
+  {
+    "msg": "USAGE_SHARE_GET"
+  },
+  {
+    "data": {
+      "sharing": true
+    },
+    "msg": "USAGE_SHARE_GET",
+    "result": "OK"
+  },
+  {
+    "msg": "SETTING_INFO_REQ"
+  },
+  {
+    "data": {
+      "visible_alarm": true,
+      "drc": true,
+      "avsync": 0,
+      "autovol": false,
+      "autopower": true,
+      "nightmode": true,
+      "btstandby": false,
+      "limit_group_gcast": false,
+      "enable_balance": false,
+      "wooferlevel": 16,
+      "visible_tonectrl": true,
+      "woofermax": 21,
+      "wooferoffset": -15,
+      "groupcompress": 0,
+      "settinginfover": 1,
+      "ledset": false,
+      "limit_bt_conn": false,
+      "visible_reserve_sleep": true,
+      "visible_mlib_sync": true,
+      "visible_init": true,
+      "visible_tvconn": true
+    },
+    "msg": "SETTING_INFO_REQ",
+    "result": "OK"
+  },
+  {
+    "msg": "SYSTEM_VER_REQ"
+  },
+  {
+    "data": {
+      "be": "NB8.029.81011.C",
+      "micom": "1704210",
+      "meq": "161104B0",
+      "hdmi": "",
+      "c4a": "1.21.75965",
+      "dsp": "",
+      "demomusic": ""
+    },
+    "msg": "SYSTEM_VER_REQ",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "sharing": false
+    },
+    "msg": "USAGE_SHARE_SET"
+  },
+  {
+    "msg": "USAGE_SHARE_SET",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "sharing": false
+    },
+    "msg": "USAGE_SHARE_SET_NOTI"
+  },
+  {
+    "data": {
+      "sharing": true
+    },
+    "msg": "USAGE_SHARE_SET"
+  },
+  {
+    "msg": "USAGE_SHARE_SET",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "sharing": true
+    },
+    "msg": "USAGE_SHARE_SET_NOTI"
+  },
+  {
+    "data": {
+      "sharing": false
+    },
+    "msg": "USAGE_SHARE_SET"
+  },
+  {
+    "msg": "USAGE_SHARE_SET",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "sharing": false
+    },
+    "msg": "USAGE_SHARE_SET_NOTI"
+  },
+  {
+    "data": {
+      "day": 4,
+      "hour": 15,
+      "id": "and0000f9c28b000000",
+      "min": 49,
+      "option": 0
+    },
+    "msg": "PRODUCT_INFO"
+  },
+  {
+    "data": {
+      "reg": true,
+      "modeltype": 2,
+      "network": 1,
+      "modelname": "SJ6",
+      "modelnum": 13,
+      "petname": "Sound Bar SJ6",
+      "protover": 1,
+      "region": "FR",
+      "info": {
+        "name": "MySoundbar",
+        "function": 4,
+        "groupid": 0,
+        "vol": 17,
+        "icon": 0,
+        "eqlist": [12, 14, 0, 7],
+        "spktype": 0,
+        "groupcolor": 0,
+        "channel": 0,
+        "playing": true,
+        "mute": false,
+        "ledset": false,
+        "update": false,
+        "wirelessmac": "04:4e:af:00:00:00",
+        "functionlist": [0, 15, 1, 12, 6, 2, 5],
+        "demo": false,
+        "bever": "NB8.029.81011.C",
+        "btmac": "C4:30:18:00:00:00"
+      }
+    },
+    "msg": "PRODUCT_INFO",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "day": 4,
+      "hour": 15,
+      "id": "and0000f9c28b000000",
+      "min": 49,
+      "option": 0
+    },
+    "msg": "PRODUCT_INFO"
+  },
+  {
+    "data": {
+      "reg": true,
+      "modeltype": 2,
+      "network": 1,
+      "modelname": "SJ6",
+      "modelnum": 13,
+      "petname": "Sound Bar SJ6",
+      "protover": 1,
+      "region": "FR",
+      "info": {
+        "name": "MySoundbar",
+        "function": 4,
+        "groupid": 0,
+        "vol": 17,
+        "icon": 0,
+        "eqlist": [12, 14, 0, 7],
+        "spktype": 0,
+        "groupcolor": 0,
+        "channel": 0,
+        "playing": true,
+        "mute": false,
+        "ledset": false,
+        "update": false,
+        "wirelessmac": "04:4e:af:00:00:00",
+        "functionlist": [0, 15, 1, 12, 6, 2, 5],
+        "demo": false,
+        "bever": "NB8.029.81011.C",
+        "btmac": "C4:30:18:00:00:00"
+      }
+    },
+    "msg": "PRODUCT_INFO",
+    "result": "OK"
+  },
+  {
+    "msg": "ALARM_LIST_REQ"
+  },
+  {
+    "data": {
+      "info": []
+    },
+    "msg": "ALARM_LIST_REQ",
+    "result": "OK"
+  },
+  {
+    "msg": "ALARM_LIST_REQ"
+  },
+  {
+    "data": {
+      "info": []
+    },
+    "msg": "ALARM_LIST_REQ",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "day": 67,
+      "dayrepeat": false,
+      "duration": 30,
+      "enable": true,
+      "hour": 16,
+      "id": -1,
+      "ipaddress": "",
+      "minute": 49,
+      "mode": 0,
+      "modifiedid": 0,
+      "shuffle": false,
+      "songpath": "",
+      "title": "Default alarm sound",
+      "type": 0,
+      "volume": 25
+    },
+    "msg": "ALARM_SET"
+  },
+  {
+    "data": {
+      "id": 0
+    },
+    "msg": "ALARM_SET",
+    "result": "OK"
+  },
+  {
+    "msg": "ALARM_LIST_REQ"
+  },
+  {
+    "data": {
+      "info": [
+        {
+          "hour": 16,
+          "minute": 49,
+          "id": 0,
+          "type": 0,
+          "m2id": "",
+          "day": 67,
+          "shuffle": false,
+          "title": "",
+          "duration": 30,
+          "volume": 25,
+          "enable": true
+        }
+      ]
+    },
+    "msg": "ALARM_LIST_REQ",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "day": 32,
+      "dayrepeat": false,
+      "duration": 15,
+      "enable": true,
+      "hour": 15,
+      "id": -1,
+      "ipaddress": "",
+      "minute": 50,
+      "mode": 0,
+      "modifiedid": 0,
+      "shuffle": true,
+      "songpath": "",
+      "title": "Default alarm sound",
+      "type": 0,
+      "volume": 10
+    },
+    "msg": "ALARM_SET"
+  },
+  {
+    "data": {
+      "id": 1
+    },
+    "msg": "ALARM_SET",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "day": 4,
+      "hour": 15,
+      "id": "and0000f9c28b000000",
+      "min": 51,
+      "option": 0
+    },
+    "msg": "PRODUCT_INFO"
+  },
+  {
+    "data": {
+      "reg": true,
+      "modeltype": 2,
+      "network": 1,
+      "modelname": "SJ6",
+      "modelnum": 13,
+      "petname": "Sound Bar SJ6",
+      "protover": 1,
+      "region": "FR",
+      "info": {
+        "name": "MySoundbar",
+        "function": 4,
+        "groupid": 0,
+        "vol": 17,
+        "icon": 0,
+        "eqlist": [12, 14, 0, 7],
+        "spktype": 0,
+        "groupcolor": 0,
+        "channel": 0,
+        "playing": true,
+        "mute": false,
+        "ledset": false,
+        "update": false,
+        "wirelessmac": "04:4e:af:00:00:00",
+        "functionlist": [0, 15, 1, 12, 6, 2, 5],
+        "demo": false,
+        "bever": "NB8.029.81011.C",
+        "btmac": "C4:30:18:00:00:00"
+      }
+    },
+    "msg": "PRODUCT_INFO",
+    "result": "OK"
+  },
+  {
+    "msg": "SLEEP_INFO_REQ"
+  },
+  {
+    "data": {
+      "time": -1
+    },
+    "msg": "SLEEP_INFO_REQ",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "time": 15
+    },
+    "msg": "SLEEP_SET"
+  },
+  {
+    "msg": "SLEEP_SET",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "time": -1
+    },
+    "msg": "SLEEP_SET"
+  },
+  {
+    "msg": "SLEEP_SET",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "time": 120
+    },
+    "msg": "SLEEP_SET"
+  },
+  {
+    "msg": "SLEEP_SET",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "time": -1
+    },
+    "msg": "SLEEP_SET"
+  },
+  {
+    "msg": "SLEEP_SET",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "day": 4,
+      "hour": 15,
+      "id": "and0000f9c28b000000",
+      "min": 51,
+      "option": 0
+    },
+    "msg": "PRODUCT_INFO"
+  },
+  {
+    "data": {
+      "reg": true,
+      "modeltype": 2,
+      "network": 1,
+      "modelname": "SJ6",
+      "modelnum": 13,
+      "petname": "Sound Bar SJ6",
+      "protover": 1,
+      "region": "FR",
+      "info": {
+        "name": "MySoundbar",
+        "function": 4,
+        "groupid": 0,
+        "vol": 17,
+        "icon": 0,
+        "eqlist": [12, 14, 0, 7],
+        "spktype": 0,
+        "groupcolor": 0,
+        "channel": 0,
+        "playing": true,
+        "mute": false,
+        "ledset": false,
+        "update": false,
+        "wirelessmac": "04:4e:af:00:00:00",
+        "functionlist": [0, 15, 1, 12, 6, 2, 5],
+        "demo": false,
+        "bever": "NB8.029.81011.C",
+        "btmac": "C4:30:18:00:00:00"
+      }
+    },
+    "msg": "PRODUCT_INFO",
+    "result": "OK"
+  },
+  {
+    "msg": "ALARM_LIST_REQ"
+  },
+  {
+    "data": {
+      "info": [
+        {
+          "hour": 16,
+          "minute": 49,
+          "id": 0,
+          "type": 0,
+          "m2id": "",
+          "day": 67,
+          "shuffle": false,
+          "title": "",
+          "duration": 30,
+          "volume": 25,
+          "enable": true
+        },
+        {
+          "hour": 15,
+          "minute": 50,
+          "id": 1,
+          "type": 0,
+          "m2id": "",
+          "day": 32,
+          "shuffle": true,
+          "title": "",
+          "duration": 15,
+          "volume": 10,
+          "enable": true
+        }
+      ]
+    },
+    "msg": "ALARM_LIST_REQ",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "day": 32,
+      "dayrepeat": false,
+      "duration": 15,
+      "enable": true,
+      "hour": 15,
+      "id": 1,
+      "ipaddress": "",
+      "minute": 50,
+      "mode": 4,
+      "modifiedid": 0,
+      "shuffle": true,
+      "title": "",
+      "type": 0,
+      "volume": 10
+    },
+    "msg": "ALARM_SET"
+  },
+  {
+    "data": {
+      "id": 1
+    },
+    "msg": "ALARM_SET",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "day": 67,
+      "dayrepeat": false,
+      "duration": 30,
+      "enable": true,
+      "hour": 16,
+      "id": 0,
+      "ipaddress": "",
+      "minute": 49,
+      "mode": 4,
+      "modifiedid": 0,
+      "shuffle": false,
+      "title": "",
+      "type": 0,
+      "volume": 25
+    },
+    "msg": "ALARM_SET"
+  },
+  {
+    "data": {
+      "id": 0
+    },
+    "msg": "ALARM_SET",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "day": 32,
+      "dayrepeat": false,
+      "duration": 15,
+      "enable": false,
+      "hour": 15,
+      "id": 1,
+      "ipaddress": "",
+      "minute": 50,
+      "mode": 3,
+      "modifiedid": 0,
+      "shuffle": true,
+      "title": "",
+      "type": 0,
+      "volume": 10
+    },
+    "msg": "ALARM_SET"
+  },
+  {
+    "data": {
+      "id": 1
+    },
+    "msg": "ALARM_SET",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "day": 67,
+      "dayrepeat": false,
+      "duration": 30,
+      "enable": false,
+      "hour": 16,
+      "id": 0,
+      "ipaddress": "",
+      "minute": 49,
+      "mode": 3,
+      "modifiedid": 0,
+      "shuffle": false,
+      "title": "",
+      "type": 0,
+      "volume": 25
+    },
+    "msg": "ALARM_SET"
+  },
+  {
+    "data": {
+      "id": 0
+    },
+    "msg": "ALARM_SET",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "day": 67,
+      "dayrepeat": false,
+      "duration": 30,
+      "enable": true,
+      "hour": 16,
+      "id": 0,
+      "ipaddress": "",
+      "minute": 49,
+      "mode": 2,
+      "modifiedid": 0,
+      "shuffle": false,
+      "title": "",
+      "type": 0,
+      "volume": 25
+    },
+    "msg": "ALARM_SET"
+  },
+  {
+    "data": {
+      "day": 32,
+      "dayrepeat": false,
+      "duration": 15,
+      "enable": true,
+      "hour": 15,
+      "id": 1,
+      "ipaddress": "",
+      "minute": 50,
+      "mode": 2,
+      "modifiedid": 0,
+      "shuffle": true,
+      "title": "",
+      "type": 0,
+      "volume": 10
+    },
+    "msg": "ALARM_SET"
+  },
+  {
+    "data": {
+      "id": 0
+    },
+    "msg": "ALARM_SET",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "id": 1
+    },
+    "msg": "ALARM_SET",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "timezone": "Europe/Helsinki"
+    },
+    "msg": "TIMEZONE_SET"
+  },
+  {
+    "msg": "TIMEZONE_SET",
+    "result": "OK"
+  },
+  {
+    "msg": "SYSTEM_VER_REQ"
+  },
+  {
+    "data": {
+      "be": "NB8.029.81011.C",
+      "micom": "1704210",
+      "meq": "161104B0",
+      "hdmi": "",
+      "c4a": "1.21.75965",
+      "dsp": "",
+      "demomusic": ""
+    },
+    "msg": "SYSTEM_VER_REQ",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "day": 4,
+      "hour": 15,
+      "id": "and0000f9c28b000000",
+      "min": 53,
+      "option": 0
+    },
+    "msg": "PRODUCT_INFO"
+  },
+  {
+    "data": {
+      "reg": true,
+      "modeltype": 2,
+      "network": 1,
+      "modelname": "SJ6",
+      "modelnum": 13,
+      "petname": "Sound Bar SJ6",
+      "protover": 1,
+      "region": "FR",
+      "info": {
+        "name": "MySoundbar",
+        "function": 4,
+        "groupid": 0,
+        "vol": 17,
+        "icon": 0,
+        "eqlist": [12, 14, 0, 7],
+        "spktype": 0,
+        "groupcolor": 0,
+        "channel": 0,
+        "playing": true,
+        "mute": false,
+        "ledset": false,
+        "update": false,
+        "wirelessmac": "04:4e:af:00:00:00",
+        "functionlist": [0, 15, 1, 12, 6, 2, 5],
+        "demo": false,
+        "bever": "NB8.029.81011.C",
+        "btmac": "C4:30:18:00:00:00"
+      }
+    },
+    "msg": "PRODUCT_INFO",
+    "result": "OK"
+  },
+  {
+    "msg": "FUNC_INFO_REQ"
+  },
+  {
+    "data": {
+      "connect": 1,
+      "type": 4,
+      "btname": "",
+      "mute": false
+    },
+    "msg": "FUNC_INFO_REQ",
+    "result": "OK"
+  },
+  {
+    "msg": "ALARM_STATE_REQ"
+  },
+  {
+    "data": {
+      "on": false
+    },
+    "msg": "ALARM_STATE_NOTI"
+  }
+]

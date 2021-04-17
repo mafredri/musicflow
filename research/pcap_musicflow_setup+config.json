@@ -1,0 +1,1847 @@
+[
+  {
+    "data": {
+      "channel": 0,
+      "ssid": "MySSID"
+    },
+    "msg": "SHARE_HOME_SSID"
+  },
+  {
+    "data": {
+      "icon": 2131231940,
+      "name": "LG SJ6"
+    },
+    "msg": "SPK_ADD_SET"
+  },
+  {
+    "msg": "SHARE_HOME_SSID",
+    "result": "OK"
+  },
+  {
+    "msg": "SPK_ADD_SET",
+    "result": "OK"
+  },
+  {
+    "msg": "SPK_ADD_NOTI"
+  },
+  {
+    "msg": "SPK_ADD_NOTI"
+  },
+  {
+    "data": {
+      "day": 6,
+      "hour": 14,
+      "id": "and000020cdf5000000",
+      "min": 43,
+      "option": 1
+    },
+    "msg": "PRODUCT_INFO"
+  },
+  {
+    "data": {
+      "day": 6,
+      "hour": 14,
+      "id": "and000020cdf5000000",
+      "min": 43,
+      "option": 0
+    },
+    "msg": "PRODUCT_INFO"
+  },
+  {
+    "data": {
+      "info": {
+        "bever": "NB8.029.81011.C",
+        "btmac": "C4:30:18:00:00:00",
+        "channel": 0,
+        "demo": false,
+        "eqlist": [12, 14, 0, 7],
+        "function": 0,
+        "functionlist": [0, 15, 1, 12, 6, 2, 5],
+        "groupcolor": 0,
+        "groupid": 0,
+        "icon": 196,
+        "ledset": true,
+        "mute": false,
+        "name": "LG SJ6",
+        "playing": false,
+        "spktype": 0,
+        "update": false,
+        "vol": 14,
+        "wirelessmac": "04:4e:af:00:00:00"
+      },
+      "modelname": "SJ6",
+      "modelnum": 13,
+      "modeltype": 2,
+      "network": 1,
+      "petname": "Sound Bar SJ6",
+      "protover": 1,
+      "reg": true,
+      "region": "FR"
+    },
+    "msg": "PRODUCT_INFO",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "info": {
+        "bever": "NB8.029.81011.C",
+        "btmac": "C4:30:18:00:00:00",
+        "channel": 0,
+        "demo": false,
+        "eqlist": [12, 14, 0, 7],
+        "function": 0,
+        "functionlist": [0, 15, 1, 12, 6, 2, 5],
+        "groupcolor": 0,
+        "groupid": 0,
+        "icon": 196,
+        "ledset": true,
+        "mute": false,
+        "name": "LG SJ6",
+        "playing": false,
+        "spktype": 0,
+        "update": false,
+        "vol": 14,
+        "wirelessmac": "04:4e:af:00:00:00"
+      },
+      "modelname": "SJ6",
+      "modelnum": 13,
+      "modeltype": 2,
+      "network": 1,
+      "petname": "Sound Bar SJ6",
+      "protover": 1,
+      "reg": true,
+      "region": "FR"
+    },
+    "msg": "PRODUCT_INFO",
+    "result": "OK"
+  },
+  {
+    "msg": "NETWORK_INFO_REQ"
+  },
+  {
+    "data": {
+      "info": {
+        "bever": "NB8.029.81011.C",
+        "btmac": "C4:30:18:00:00:00",
+        "channel": 0,
+        "demo": false,
+        "eqlist": [12, 14, 0, 7],
+        "function": 0,
+        "functionlist": [0, 15, 1, 12, 6, 2, 5],
+        "groupcolor": 0,
+        "groupid": 0,
+        "icon": 196,
+        "ledset": true,
+        "mute": false,
+        "name": "LG SJ6",
+        "playing": false,
+        "spktype": 0,
+        "update": false,
+        "vol": 14,
+        "wirelessmac": "04:4e:af:00:00:00"
+      },
+      "modelname": "SJ6",
+      "modelnum": 13,
+      "modeltype": 2,
+      "network": 1,
+      "petname": "Sound Bar SJ6",
+      "protover": 1,
+      "reg": true,
+      "region": "FR"
+    },
+    "msg": "PRODUCT_INFO",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "meshch": 0,
+      "meshid": 1226,
+      "network": 1,
+      "pswd": "MyPassword",
+      "ssid": "MySSID"
+    },
+    "msg": "NETWORK_INFO_REQ",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "stat": true
+    },
+    "msg": "TEST_TONE"
+  },
+  {
+    "data": {
+      "icon": 0,
+      "name": "MySoundbar"
+    },
+    "msg": "SPK_INFO_MODIFY"
+  },
+  {
+    "msg": "SPK_INFO_MODIFY",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "icon": 0,
+      "name": "MySoundbar"
+    },
+    "msg": "SPK_NAME_CHANGE"
+  },
+  {
+    "msg": "C4A_TOS_GET"
+  },
+  {
+    "data": {
+      "agree": true
+    },
+    "msg": "C4A_TOS_GET",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "day": 6,
+      "hour": 14,
+      "id": "and000020cdf5000000",
+      "min": 43,
+      "option": 1
+    },
+    "msg": "PRODUCT_INFO"
+  },
+  {
+    "data": {
+      "info": {
+        "bever": "NB8.029.81011.C",
+        "btmac": "C4:30:18:00:00:00",
+        "channel": 0,
+        "demo": false,
+        "eqlist": [12, 14, 0, 7],
+        "function": 0,
+        "functionlist": [0, 15, 1, 12, 6, 2, 5],
+        "groupcolor": 0,
+        "groupid": 0,
+        "icon": 0,
+        "ledset": true,
+        "mute": false,
+        "name": "MySoundbar",
+        "playing": false,
+        "spktype": 0,
+        "update": false,
+        "vol": 14,
+        "wirelessmac": "04:4e:af:00:00:00"
+      },
+      "modelname": "SJ6",
+      "modelnum": 13,
+      "modeltype": 2,
+      "network": 1,
+      "petname": "Sound Bar SJ6",
+      "protover": 1,
+      "reg": true,
+      "region": "FR"
+    },
+    "msg": "PRODUCT_INFO",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "mandatory": true,
+      "upt": true
+    },
+    "msg": "UPDATE_START"
+  },
+  {
+    "data": {
+      "upt": true
+    },
+    "msg": "UPDATE_START",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "prog": 1
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 2
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 3
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 4
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 5
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 6
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 7
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 8
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 9
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 10
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 11
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 12
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 13
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 14
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 15
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 16
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 17
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 18
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 18
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 19
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 20
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 21
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 22
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 23
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 24
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 25
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 26
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 27
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 28
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 29
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 30
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 31
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 32
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 33
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 34
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 35
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 36
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 37
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 38
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 39
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 40
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 41
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 41
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 42
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 43
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 44
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 45
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 46
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 47
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 48
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 49
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 49
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 50
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 51
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 52
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 53
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 54
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 55
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 56
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 57
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 58
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 58
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 59
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 60
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 61
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 62
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 63
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 64
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 65
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 65
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 66
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 67
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 68
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 69
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 70
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 71
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 72
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 73
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 74
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 75
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 76
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 76
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 77
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 78
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 79
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 80
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 81
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 82
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 83
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 84
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 85
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 86
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 87
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 88
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 89
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 90
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 91
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 92
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 93
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 94
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 95
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 96
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 97
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 98
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 99
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "prog": 100
+    },
+    "msg": "UPDATE_PROGRESS"
+  },
+  {
+    "data": {
+      "result": true
+    },
+    "msg": "UPDATE_DOWN_RESULT"
+  },
+  {
+    "data": {
+      "complete": true
+    },
+    "msg": "UPDATE_COMPLETE"
+  },
+  {
+    "data": {
+      "channel": 0,
+      "ssid": "MySSID"
+    },
+    "msg": "SHARE_HOME_SSID"
+  },
+  {
+    "msg": "SHARE_HOME_SSID",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "day": 6,
+      "hour": 14,
+      "id": "and000020cdf5000000",
+      "min": 46,
+      "option": 0
+    },
+    "msg": "PRODUCT_INFO"
+  },
+  {
+    "msg": "C4A_TOS_GET"
+  },
+  {
+    "data": {
+      "info": {
+        "bever": "NB9.504.00629.C",
+        "btmac": "C4:30:18:00:00:00",
+        "channel": 0,
+        "demo": false,
+        "eqlist": [12, 14, 0, 7],
+        "function": 0,
+        "functionlist": [0, 15, 1, 12, 6, 2, 5],
+        "groupcolor": 0,
+        "groupid": 0,
+        "icon": 0,
+        "ledset": true,
+        "mute": false,
+        "name": "MySoundbar",
+        "playing": false,
+        "spktype": 0,
+        "update": false,
+        "vol": 14,
+        "wirelessmac": "04:4e:af:00:00:00"
+      },
+      "modelname": "SJ6",
+      "modelnum": 13,
+      "modeltype": 2,
+      "network": 1,
+      "petname": "Sound Bar SJ6",
+      "protover": 1,
+      "reg": true,
+      "region": "FR"
+    },
+    "msg": "PRODUCT_INFO",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "agree": true
+    },
+    "msg": "C4A_TOS_GET",
+    "result": "OK"
+  },
+  {
+    "msg": "FUNC_INFO_REQ"
+  },
+  {
+    "data": {
+      "btname": "",
+      "connect": 0,
+      "mute": false,
+      "type": 0
+    },
+    "msg": "FUNC_INFO_REQ",
+    "result": "OK"
+  },
+  {
+    "msg": "PLAY_INFO_REQ"
+  },
+  {
+    "data": {
+      "albumart": "",
+      "albumtitle": "",
+      "artist": "",
+      "c4aappid": "",
+      "c4aappname": "",
+      "cptype": 0,
+      "duration": 0,
+      "idx": 0,
+      "objID": "",
+      "playing": 3,
+      "position": 0,
+      "repeat": 0,
+      "shuffle": false,
+      "source": 0,
+      "title": "",
+      "uri": ""
+    },
+    "msg": "PLAY_INFO_REQ",
+    "result": "OK"
+  },
+  {
+    "msg": "ALARM_STATE_REQ"
+  },
+  {
+    "data": {
+      "on": false
+    },
+    "msg": "ALARM_STATE_NOTI"
+  },
+  {
+    "data": {
+      "on": false
+    },
+    "msg": "ALARM_STATE_NOTI"
+  },
+  {
+    "data": {
+      "set": true
+    },
+    "msg": "PLAY_TIME_SET"
+  },
+  {
+    "msg": "PLAY_TIME_SET",
+    "result": "OK"
+  },
+  {
+    "msg": "FUNC_INFO_REQ"
+  },
+  {
+    "data": {
+      "btname": "",
+      "connect": 0,
+      "mute": false,
+      "type": 0
+    },
+    "msg": "FUNC_INFO_REQ",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "all": false,
+      "startidx": 0
+    },
+    "msg": "PLAYLIST_TRANS_REQ"
+  },
+  {
+    "msg": "ALARM_STATE_REQ"
+  },
+  {
+    "msg": "PLAY_INFO_REQ"
+  },
+  {
+    "data": {
+      "cursize": 0,
+      "playlist": [],
+      "startidx": 0,
+      "totalsize": 0
+    },
+    "msg": "PLAYLIST_TRANS_REQ",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "on": false
+    },
+    "msg": "ALARM_STATE_NOTI"
+  },
+  {
+    "data": {
+      "albumart": "",
+      "albumtitle": "",
+      "artist": "",
+      "c4aappid": "",
+      "c4aappname": "",
+      "cptype": 0,
+      "duration": 0,
+      "idx": 0,
+      "objID": "",
+      "playing": 3,
+      "position": 0,
+      "repeat": 0,
+      "shuffle": false,
+      "source": 0,
+      "title": "",
+      "uri": ""
+    },
+    "msg": "PLAY_INFO_REQ",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "albumart": "",
+      "albumtitle": "",
+      "artist": "",
+      "c4aappid": "",
+      "c4aappname": "",
+      "cptype": 0,
+      "duration": 0,
+      "idx": 0,
+      "objID": "",
+      "playing": 3,
+      "position": 0,
+      "repeat": 0,
+      "shuffle": false,
+      "source": 0,
+      "title": "",
+      "uri": ""
+    },
+    "msg": "PLAY_INFO_REQ",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "type": 15
+    },
+    "msg": "FUNCTION_SET"
+  },
+  {
+    "msg": "FUNCTION_SET",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "btname": "",
+      "connect": 1,
+      "mute": false,
+      "type": 4
+    },
+    "msg": "FUNC_INFO"
+  },
+  {
+    "msg": "ALARM_STATE_REQ"
+  },
+  {
+    "data": {
+      "on": false
+    },
+    "msg": "ALARM_STATE_NOTI"
+  },
+  {
+    "data": {
+      "btname": "",
+      "connect": 0,
+      "mute": false,
+      "type": 7
+    },
+    "msg": "FUNC_INFO"
+  },
+  {
+    "msg": "ALARM_STATE_REQ"
+  },
+  {
+    "data": {
+      "on": false
+    },
+    "msg": "ALARM_STATE_NOTI"
+  },
+  {
+    "msg": "EQ_INFO_REQ"
+  },
+  {
+    "data": {
+      "bass": 5,
+      "currenteq": 12,
+      "lrbal": 20,
+      "treble": 5
+    },
+    "msg": "EQ_INFO_REQ",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "type": 0,
+      "value": 14
+    },
+    "msg": "EQ_SETTING"
+  },
+  {
+    "msg": "EQ_SETTING",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "type": 0,
+      "value": 0
+    },
+    "msg": "EQ_SETTING"
+  },
+  {
+    "msg": "EQ_SETTING",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "type": 0,
+      "value": 7
+    },
+    "msg": "EQ_SETTING"
+  },
+  {
+    "msg": "EQ_SETTING",
+    "result": "OK"
+  },
+  {
+    "msg": "EQ_INFO_REQ"
+  },
+  {
+    "data": {
+      "bass": 5,
+      "currenteq": 12,
+      "lrbal": 20,
+      "treble": 5
+    },
+    "msg": "EQ_INFO_REQ",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "type": 4,
+      "value": 1
+    },
+    "msg": "EQ_SETTING"
+  },
+  {
+    "msg": "EQ_SETTING",
+    "result": "OK"
+  },
+  {
+    "msg": "EQ_INFO_REQ"
+  },
+  {
+    "data": {
+      "bass": 5,
+      "currenteq": 7,
+      "lrbal": 20,
+      "treble": 5
+    },
+    "msg": "EQ_INFO_REQ",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "type": 4,
+      "value": 1
+    },
+    "msg": "EQ_SETTING"
+  },
+  {
+    "msg": "EQ_SETTING",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "fadetime": 0,
+      "vol": 15
+    },
+    "msg": "VOLUME_SETTING"
+  },
+  {
+    "data": {
+      "vol": 15
+    },
+    "msg": "VOLUME_CHANGE"
+  },
+  {
+    "msg": "VOLUME_SETTING",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "fadetime": 0,
+      "vol": 15
+    },
+    "msg": "VOLUME_SETTING"
+  },
+  {
+    "msg": "VOLUME_SETTING",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "fadetime": 0,
+      "vol": 13
+    },
+    "msg": "VOLUME_SETTING"
+  },
+  {
+    "data": {
+      "vol": 13
+    },
+    "msg": "VOLUME_CHANGE"
+  },
+  {
+    "msg": "VOLUME_SETTING",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "fadetime": 0,
+      "vol": 12
+    },
+    "msg": "VOLUME_SETTING"
+  },
+  {
+    "data": {
+      "vol": 12
+    },
+    "msg": "VOLUME_CHANGE"
+  },
+  {
+    "msg": "VOLUME_SETTING",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "fadetime": 0,
+      "vol": 11
+    },
+    "msg": "VOLUME_SETTING"
+  },
+  {
+    "data": {
+      "fadetime": 0,
+      "vol": 11
+    },
+    "msg": "VOLUME_SETTING"
+  },
+  {
+    "data": {
+      "vol": 11
+    },
+    "msg": "VOLUME_CHANGE"
+  },
+  {
+    "msg": "VOLUME_SETTING",
+    "result": "OK"
+  },
+  {
+    "msg": "VOLUME_SETTING",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "mute": true
+    },
+    "msg": "MUTE_SET"
+  },
+  {
+    "data": {
+      "mute": true
+    },
+    "msg": "MUTE_CHANGE"
+  },
+  {
+    "msg": "MUTE_SET",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "mute": false
+    },
+    "msg": "MUTE_SET"
+  },
+  {
+    "data": {
+      "mute": false
+    },
+    "msg": "MUTE_CHANGE"
+  },
+  {
+    "msg": "MUTE_SET",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "day": 6,
+      "hour": 14,
+      "id": "and000020cdf5000000",
+      "min": 47,
+      "option": 0
+    },
+    "msg": "PRODUCT_INFO"
+  },
+  {
+    "data": {
+      "info": {
+        "bever": "NB9.504.00629.C",
+        "btmac": "C4:30:18:00:00:00",
+        "channel": 0,
+        "demo": false,
+        "eqlist": [12, 14, 0, 7],
+        "function": 0,
+        "functionlist": [0, 15, 1, 12, 6, 2, 5],
+        "groupcolor": 0,
+        "groupid": 0,
+        "icon": 0,
+        "ledset": true,
+        "mute": false,
+        "name": "MySoundbar",
+        "playing": false,
+        "spktype": 0,
+        "update": false,
+        "vol": 11,
+        "wirelessmac": "04:4e:af:00:00:00"
+      },
+      "modelname": "SJ6",
+      "modelnum": 13,
+      "modeltype": 2,
+      "network": 1,
+      "petname": "Sound Bar SJ6",
+      "protover": 1,
+      "reg": true,
+      "region": "FR"
+    },
+    "msg": "PRODUCT_INFO",
+    "result": "OK"
+  },
+  {
+    "msg": "USAGE_SHARE_GET"
+  },
+  {
+    "msg": "SETTING_INFO_REQ"
+  },
+  {
+    "data": {
+      "sharing": false
+    },
+    "msg": "USAGE_SHARE_GET",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "autopower": true,
+      "autovol": false,
+      "avsync": 0,
+      "btstandby": false,
+      "drc": false,
+      "enable_balance": false,
+      "groupcompress": 1,
+      "ipv4addr": "192.168.99.99",
+      "ipv6addr": "",
+      "ledset": true,
+      "limit_bt_conn": false,
+      "limit_group_gcast": false,
+      "nightmode": false,
+      "settinginfover": 1,
+      "visible_alarm": true,
+      "visible_init": true,
+      "visible_mlib_sync": true,
+      "visible_reserve_sleep": true,
+      "visible_tonectrl": true,
+      "visible_tvconn": true,
+      "wooferlevel": 15,
+      "woofermax": 21,
+      "wooferoffset": -15
+    },
+    "msg": "SETTING_INFO_REQ",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "stat": false
+    },
+    "msg": "LED_SET"
+  },
+  {
+    "data": {
+      "stat": false
+    },
+    "msg": "LED_SET",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "status": 1
+    },
+    "msg": "GROUP_COMPRESS_SET"
+  },
+  {
+    "data": {
+      "status": 1
+    },
+    "msg": "GROUP_COMPRESS_STATE_NOTI"
+  },
+  {
+    "msg": "USAGE_SHARE_GET"
+  },
+  {
+    "data": {
+      "sharing": false
+    },
+    "msg": "USAGE_SHARE_GET",
+    "result": "OK"
+  },
+  {
+    "msg": "SETTING_INFO_REQ"
+  },
+  {
+    "data": {
+      "autopower": true,
+      "autovol": false,
+      "avsync": 0,
+      "btstandby": false,
+      "drc": false,
+      "enable_balance": false,
+      "groupcompress": 1,
+      "ipv4addr": "192.168.99.99",
+      "ipv6addr": "",
+      "ledset": false,
+      "limit_bt_conn": false,
+      "limit_group_gcast": false,
+      "nightmode": false,
+      "settinginfover": 1,
+      "visible_alarm": true,
+      "visible_init": true,
+      "visible_mlib_sync": true,
+      "visible_reserve_sleep": true,
+      "visible_tonectrl": true,
+      "visible_tvconn": true,
+      "wooferlevel": 15,
+      "woofermax": 21,
+      "wooferoffset": -15
+    },
+    "msg": "SETTING_INFO_REQ",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "nightmode": true
+    },
+    "msg": "NIGHT_MODE_SET"
+  },
+  {
+    "data": {
+      "nightmode": true
+    },
+    "msg": "NIGHT_MODE_SET",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "nightmode": false
+    },
+    "msg": "NIGHT_MODE_SET"
+  },
+  {
+    "data": {
+      "nightmode": false
+    },
+    "msg": "NIGHT_MODE_SET",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "wooferlevel": 14
+    },
+    "msg": "WOOFER_LEVEL_SET"
+  },
+  {
+    "data": {
+      "wooferlevel": 14
+    },
+    "msg": "WOOFER_LEVEL_SET",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "wooferlevel": 14
+    },
+    "msg": "WOOFER_LEVEL_SET"
+  },
+  {
+    "data": {
+      "wooferlevel": 14
+    },
+    "msg": "WOOFER_LEVEL_SET",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "wooferlevel": 13
+    },
+    "msg": "WOOFER_LEVEL_SET"
+  },
+  {
+    "data": {
+      "wooferlevel": 13
+    },
+    "msg": "WOOFER_LEVEL_SET",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "limit_bt_conn": true
+    },
+    "msg": "BT_LIMIT_SET"
+  },
+  {
+    "data": {
+      "limit_bt_conn": true
+    },
+    "msg": "BT_LIMIT_SET_NOTI"
+  },
+  {
+    "msg": "SYSTEM_VER_REQ"
+  },
+  {
+    "data": {
+      "be": "NB9.504.00629.C",
+      "c4a": "1.36.145853",
+      "demomusic": "",
+      "dsp": "",
+      "hdmi": "",
+      "meq": "161104B0",
+      "micom": "1704210"
+    },
+    "msg": "SYSTEM_VER_REQ",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "day": 6,
+      "hour": 14,
+      "id": "and000020cdf5000000",
+      "min": 48,
+      "option": 0
+    },
+    "msg": "PRODUCT_INFO"
+  },
+  {
+    "data": {
+      "info": {
+        "bever": "NB9.504.00629.C",
+        "btmac": "C4:30:18:00:00:00",
+        "channel": 0,
+        "demo": false,
+        "eqlist": [12, 14, 0, 7],
+        "function": 0,
+        "functionlist": [0, 15, 1, 12, 6, 2, 5],
+        "groupcolor": 0,
+        "groupid": 0,
+        "icon": 0,
+        "ledset": false,
+        "mute": false,
+        "name": "MySoundbar",
+        "playing": false,
+        "spktype": 0,
+        "update": false,
+        "vol": 11,
+        "wirelessmac": "04:4e:af:00:00:00"
+      },
+      "modelname": "SJ6",
+      "modelnum": 13,
+      "modeltype": 2,
+      "network": 1,
+      "petname": "Sound Bar SJ6",
+      "protover": 1,
+      "reg": true,
+      "region": "FR"
+    },
+    "msg": "PRODUCT_INFO",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "timezone": "Europe/Helsinki"
+    },
+    "msg": "TIMEZONE_SET"
+  },
+  {
+    "msg": "TIMEZONE_SET",
+    "result": "OK"
+  },
+  {
+    "data": {
+      "day": 6,
+      "hour": 14,
+      "id": "and000020cdf5000000",
+      "min": 49,
+      "option": 0
+    },
+    "msg": "PRODUCT_INFO"
+  },
+  {
+    "data": {
+      "info": {
+        "bever": "NB9.504.00629.C",
+        "btmac": "C4:30:18:00:00:00",
+        "channel": 0,
+        "demo": false,
+        "eqlist": [12, 14, 0, 7],
+        "function": 0,
+        "functionlist": [0, 15, 1, 12, 6, 2, 5],
+        "groupcolor": 0,
+        "groupid": 0,
+        "icon": 0,
+        "ledset": false,
+        "mute": false,
+        "name": "MySoundbar",
+        "playing": false,
+        "spktype": 0,
+        "update": false,
+        "vol": 11,
+        "wirelessmac": "04:4e:af:00:00:00"
+      },
+      "modelname": "SJ6",
+      "modelnum": 13,
+      "modeltype": 2,
+      "network": 1,
+      "petname": "Sound Bar SJ6",
+      "protover": 1,
+      "reg": true,
+      "region": "FR"
+    },
+    "msg": "PRODUCT_INFO",
+    "result": "OK"
+  },
+  {
+    "msg": "FUNC_INFO_REQ"
+  },
+  {
+    "data": {
+      "btname": "",
+      "connect": 0,
+      "mute": false,
+      "type": 7
+    },
+    "msg": "FUNC_INFO_REQ",
+    "result": "OK"
+  },
+  {
+    "msg": "ALARM_STATE_REQ"
+  },
+  {
+    "data": {
+      "on": false
+    },
+    "msg": "ALARM_STATE_NOTI"
+  },
+  {
+    "msg": "ALARM_STATE_REQ"
+  },
+  {
+    "data": {
+      "on": false
+    },
+    "msg": "ALARM_STATE_NOTI"
+  },
+  {
+    "msg": "FUNC_INFO_REQ"
+  },
+  {
+    "data": {
+      "btname": "",
+      "connect": 0,
+      "mute": false,
+      "type": 7
+    },
+    "msg": "FUNC_INFO_REQ",
+    "result": "OK"
+  },
+  {
+    "msg": "ALARM_STATE_REQ"
+  },
+  {
+    "data": {
+      "on": false
+    },
+    "msg": "ALARM_STATE_NOTI"
+  },
+  { "msg": "SDP_CPLIST_REQ" },
+  {
+    "data": {
+      "c4acplist": [
+        {
+          "C4A": false,
+          "cpName": "Spotify"
+        },
+        {
+          "C4A": false,
+          "cpName": "Napster"
+        },
+        {
+          "C4A": false,
+          "cpName": "TuneIn"
+        },
+        {
+          "C4A": false,
+          "cpName": "Deezer"
+        },
+        {
+          "C4A": true,
+          "appId": "691797987",
+          "cpName": "Google Play Music",
+          "pkgId": "com.google.android.music",
+          "scheme": "GooglePlayMusic://"
+        },
+        {
+          "C4A": true,
+          "appId": "",
+          "cpName": "Rdio",
+          "pkgId": "",
+          "scheme": ""
+        },
+        {
+          "C4A": true,
+          "appId": "418987775",
+          "cpName": "TuneIn",
+          "pkgId": "tunein.player",
+          "scheme": "tunein://"
+        },
+        {
+          "C4A": true,
+          "appId": "",
+          "cpName": "Deezer",
+          "pkgId": "",
+          "scheme": ""
+        },
+        {
+          "C4A": true,
+          "appId": "",
+          "cpName": "NPR One",
+          "pkgId": "org.npr.one",
+          "scheme": ""
+        },
+        {
+          "C4A": true,
+          "appId": "",
+          "cpName": "BeyondPod",
+          "pkgId": "",
+          "scheme": ""
+        }
+      ],
+      "cplist": ["Spotify", "Napster", "TuneIn", "Deezer"]
+    },
+    "msg": "SDP_CPLIST_REQ",
+    "result": "OK"
+  }
+]
