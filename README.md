@@ -4,6 +4,8 @@ Speaks the LG Music Flow protocol. This package and its commands can be used to 
 
 The API is mostly implemented, more can be added as needed.
 
+The actual wire protocol is implemented by [github.com/mafredri/goodspeaker](https://github.com/mafredri/goodspeaker).
+
 ## Usage
 
 As a module.
